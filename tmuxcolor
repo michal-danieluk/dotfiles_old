@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Uruchamiam tmux razem z colorami"
+tmux -2
