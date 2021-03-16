@@ -37,7 +37,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'sainnhe/gruvbox-material'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'gruvbox-community/gruvbox'
-
+Plug 'https://github.com/Rigellute/shades-of-purple.vim'
 " fuzzy finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -61,7 +61,7 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'neovim/nvim-lspconfig'
 
 Plug 'mxw/vim-jsx'
-
+Plug 'anott03/nvim-lspinstall'
 Plug 'pangloss/vim-javascript'
 call plug#end()
 
